@@ -2,7 +2,14 @@
 Why did I make this...
 
 ## How to use:
-1. Download python https://www.python.org/
+1.1. Download python https://www.python.org/
+1.2. Check that it's inside your "PATH" (open command prompt and run "python" to check if it's correctly installed)
+1.3. Run these commands:
+```bash
+pip install requests
+pip install argparse
+pip install base64
+```
 2. Create an e621 account (my biggest regret) https://e621.net
 3. Edit the file and enter your username and api key e.g.
 ```py
